@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "imgmover"
+version = "0.1.0"
+description = ""
+authors = ["drivingmenuts <albert.freeman@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+rich = "^13.7.0"
+exif = "^1.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
